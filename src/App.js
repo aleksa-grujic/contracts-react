@@ -1,6 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import logo from './logo.svg';
-import './App.css';
 import ConctractSelect from "./components/contract-select";
 import ContractRow from "./components/contract-row";
 
