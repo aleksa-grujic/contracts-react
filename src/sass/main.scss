@@ -1,0 +1,12 @@
+@import "abstracts/variables";
+
+@import "components/contract-box";
+@import "components/contract-row";
+@import "components/contract-select";
+
+.app {
+  max-width: $breakpoint_large;
+  margin: auto;
+  font-family: Calibri, sans-serif;
+  color: $general_text_color;
+}

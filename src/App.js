@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import ConctractSelect from "./components/contract-select";
 import ContractRow from "./components/contract-row";
+import "./sass/main.scss";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -20,7 +21,7 @@ function App() {
           });
   }
   return (
-    <div>
+    <div className="app">
       {loading ?
           <p>Loading</p> :
           <div>

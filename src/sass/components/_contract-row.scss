@@ -1,0 +1,10 @@
+.row {
+  display: flex;
+  max-width: $breakpoint_large;
+  margin: 60px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media (max-width: $breakpoint-small) {
+    max-width: 260px;
+  }
+}
